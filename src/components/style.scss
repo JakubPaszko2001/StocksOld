@@ -1,0 +1,76 @@
+.stockListContainer {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.listItems {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+}
+.padding {
+    flex: 1 1 0px;
+    padding: 10px 0;
+}
+
+.positive {
+    color: green;
+}
+.negative {
+    color: red;
+}
+
+////////////////////// AutoComplete ///////////////////////
+
+.autoCompleteContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dropDown {
+    margin-top: 100px;
+    position: relative;
+}
+.dropDownMenu {
+    position: absolute;
+    top: 14px;
+    left: 1px;
+}
+input {
+     width: 337px;
+     padding: 5px;
+}
+ul {
+    display: none;
+}
+
+.display {
+    display: block;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    width: 348px;
+    border: 1px solid black;
+    height: 150px;
+    overflow-y: scroll;
+    cursor: pointer;
+}
+li {
+    padding: 2px;
+}
+
+li:hover {
+    background-color: antiquewhite;
+}
+.pointer {
+    cursor: pointer;
+}
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+}
